@@ -50,7 +50,7 @@ pip install -r requirements.txt
 - Add your dataset file (CSV format) to the `data/` folder.
 - Ensure the file is named `data.csv` or update the path in `app.py`.
 
-### 4. Run the Application
+### 4. Run the Application Locally
 ```bash
 streamlit run app.py
 ```
@@ -63,6 +63,11 @@ Question,Answer
 "What is LangChain?","LangChain is a framework for building applications with LLMs."
 "What is GPT-2?","GPT-2 is a generative language model developed by OpenAI."
 ```
+
+---
+
+## Online Deployment
+The chatbot is deployed on Streamlit Community Cloud. You can access it here: [AI Bot Chat](https://aibotchat.streamlit.app/)
 
 ---
 
